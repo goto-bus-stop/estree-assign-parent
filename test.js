@@ -16,3 +16,15 @@ test('adds parent properties', function (t) {
   t.equal(ast.body[0].parent, ast, 'array element properties refer back to correct node')
   t.end()
 })
+
+test('custom key', function (t) {
+  var ast = parse(`
+    module.exports = function xyz () {
+      return xyz.toString()
+    }
+  `)
+
+  assignParent(ast, 'hello')
+  t.equal(ast.body[0].hello, ast, 'used a custom property')
+  t.end()
+})

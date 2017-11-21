@@ -1,7 +1,7 @@
 {
   "name": "estree-assign-parent",
   "description": "assign `.parent` properties to all nodes in an ast.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "browser": {
     "assert": "nanoassert"
