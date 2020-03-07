@@ -3,8 +3,8 @@ var assert = require('assert')
 module.exports = function assignParent (ast, parentKey) {
   parentKey = parentKey || 'parent'
 
-  assert.ok(isNode(ast), 'estree-assign-parent: ast must be a Node with a `type`')
-  assert.equal(typeof parentKey, 'string', 'estree-assign-parent: key must be a string')
+  assert(isNode(ast), 'estree-assign-parent: ast must be a Node with a `type`')
+  assert(typeof parentKey === 'string', 'estree-assign-parent: key must be a string')
 
   walk(ast, null)
   return ast
