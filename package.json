@@ -10,10 +10,13 @@
     "url": "https://github.com/goto-bus-stop/estree-assign-parent/issues"
   },
   "dependencies": {
+    "dash-ast": "^2.0.1",
     "nanoassert": "^2.0.0"
   },
   "devDependencies": {
     "acorn": "^7.1.1",
+    "d3": "^5.16.0",
+    "nanobench": "^2.1.1",
     "standard": "^14.3.1",
     "tape": "^5.0.0"
   },
