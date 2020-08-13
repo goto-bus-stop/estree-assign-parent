@@ -13,7 +13,7 @@
     "nanoassert": "^2.0.0"
   },
   "devDependencies": {
-    "acorn": "^7.1.1",
+    "acorn": "^8.0.1",
     "standard": "^14.3.1",
     "tape": "^5.0.0"
   },
