@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "acorn": "^8.0.1",
-    "standard": "^14.3.1",
+    "standard": "^15.0.0",
     "tape": "^5.0.0"
   },
   "homepage": "https://github.com/goto-bus-stop/estree-assign-parent",
